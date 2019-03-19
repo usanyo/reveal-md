@@ -25,6 +25,7 @@
     "lib"
   ],
   "scripts": {
+		"start": "electron bin/cli.js",
     "test": "mocha",
     "format": "prettier --write lib/**/*.js bin/*.js test/*.js *.md"
   },
